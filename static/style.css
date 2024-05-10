@@ -58,6 +58,25 @@ body {
 
   /* index.html */
 
+  .paragraph {
+    line-height: 1.5; 
+  }
+
+  .container{
+    width: 30%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .left{
+    width: 10%;
+    height: 1000px;
+  }
+
   .button {
     display: inline-block;
     padding: 10px 20px;
