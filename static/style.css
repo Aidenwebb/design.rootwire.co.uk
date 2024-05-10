@@ -72,9 +72,13 @@ body {
     border: 2px solid black;
     border-radius: 5px;
   }
-  .left{
+
+  .container.left{
     width: 10%;
     height: 1000px;
+  } 
+  .container.bottom{
+    align-items: flex-end;
   }
 
   .button {
