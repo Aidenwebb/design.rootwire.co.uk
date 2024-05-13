@@ -56,6 +56,11 @@ body {
     min-height: 80vh;
   }
 
+  .body {
+    width: 960px;
+    margin: auto;
+  }
+
   /* index.html */
 
   .container-row {
@@ -64,18 +69,22 @@ body {
     padding-bottom: 100px; 
     padding-top: 50px;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   .container {
     flex: 1;
     max-width: 30%;
-    height: 40vh;
-    /* display: flex; */
+    height: 30em;
+    display: flex;
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 5px;
     position: relative;
     padding-bottom: 100px; 
+    min-width: 200px;
+    margin: 0 auto; 
+    box-sizing: border-box;
   }
   .cont2 {
     background-color: #6BC2B3;
@@ -105,10 +114,11 @@ body {
     right: 0;
   }
 
+
   .bottom {
     position: absolute;
-    bottom: 2cm;
-    left: 10;
+    bottom: 2em;
+    left: 2em;
     margin-top: 20px; 
     padding-left: 20px;
   }
