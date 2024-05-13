@@ -58,42 +58,53 @@ body {
 
   /* index.html */
 
-  .p-section {
+  .container-row {
+    display: flex;
     position: relative;
-    padding-bottom: 100px; /* Adjust the padding bottom to accommodate the bottom button */
-  }
-
-  .paragraph {
-    line-height: 1.5; 
+    padding-bottom: 100px; 
+    padding-top: 50px;
+    justify-content: space-evenly;
   }
 
   .container{
-    width: 30%;
-    max-width: 1000px;
-    display: flex;
+    flex: 1;
+    max-width: 30%;
+    height: 40vh;
+    /* display: flex; */
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 5px;
     position: relative;
     padding-bottom: 100px; 
+    
   }
 
-  .top-right{
-    flex: 1;
-    padding-left: 50px; /* Add space between top-left and top-right */
-    right: 0;
+  .content-1{
+    padding-left: 10px;
   }
-  .top-right img {
-    width: 70%;
+
+  .paragraph-1 {
+    line-height: 1.5; 
+    position: absolute;
+    padding-top: 15px;
+  }
+
+  .top-right-1 img {
+    position: absolute;
+    width: 30%;
     height: auto;
+    top: 0;
+    right: 0;
   }
 
   .bottom {
     position: absolute;
-    bottom: 0;
+    bottom: 2cm;
     left: 10;
     margin-top: 20px; 
+    padding-left: 20px;
   }
+
   .button {
     display: inline-block;
     padding: 10px 20px;
@@ -107,10 +118,6 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center; 
-  }
-  
-  .button:hover {
-    background-color: none;
   }
 
   .button img {
