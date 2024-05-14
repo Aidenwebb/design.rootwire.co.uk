@@ -97,11 +97,6 @@ body {
     min-height: 80vh;
   }
 
-  /* .body {
-    width: 960px;
-    margin: auto;
-  } */
-
 
   /* index.html */
 
@@ -149,15 +144,11 @@ body {
     background-color: #896C89;
     border: none;
   }
-
-
-
   .content {
     padding-left: 1em;
     padding-top: 1em;
     padding-right: 1em;
   }
-
   .paragraph {
     line-height: 1.5; 
     padding-right: 2em;
@@ -196,7 +187,6 @@ body {
     justify-content: center; 
     align-items: center; 
   }
-  
   .btn1 img {
     display: block;
     width: 5.5em;
@@ -216,11 +206,9 @@ body {
     justify-content: center; 
     align-items: center; 
   }
-  
   .btn2{
     background-color: #6BC2B3;
   }
-
   .btn3{
     background-color: #896C89;
   }
