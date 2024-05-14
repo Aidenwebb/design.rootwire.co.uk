@@ -11,7 +11,7 @@
       <title>Rootwire Design</title>
     </head>
     <body> 
-      <nav class="navbar">
+      <nav class="navbar" id="navbar">
         <ul class="left">
           <li class="home"><a href="{{ url_for('get_index') }}">
             <img src="../static/logo/TransBg-Two-colour-full-logo-wht-text-mdpi.png">
@@ -24,7 +24,25 @@
           <li> <a href="">Contribute</a></li>
         </ul>
       </nav>
+
+      <div class="hamburger-menu" id="hamburger-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
       {% block content %}
       {% endblock %}
+
+      <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const centerMenu = document.querySelector('.navbar .center');
+
+        hamburgerMenu.addEventListener('click', () => {
+          centerMenu.classList.toggle('show');
+            });
+        });
+        </script> -->
+
         </body>
         </html>
