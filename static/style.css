@@ -213,4 +213,17 @@ body {
     background-color: #896C89;
   }
 
-  
+
+    /* brand/index.html */
+
+    .brand-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: left;
+    }
+    .brand-container {
+      padding-bottom: 2em;
+      margin-bottom: 1em;
+      width: 90%;
+    }
