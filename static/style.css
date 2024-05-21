@@ -234,6 +234,12 @@ body {
       width: 7em;
       height: 6em;
     }
+
+    .overlay-title {
+      position: absolute;
+      top: 2.5em;
+      left: 3.5em;
+    }
     .icon {
       width: 30px; 
       height: auto;
@@ -244,16 +250,18 @@ body {
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      margin-left: 3em;
+      margin-top: 2em;
     }
     .contact-icons {
       display: flex;
       flex-direction: column;
       margin-right: 1em;
-      gap: 3.5em; 
+      gap: 3em; 
     }
     .contact-details {
       display: flex;
-      align-items: center; /* Center the paragraph vertically */
+      align-items: center; 
     }
     #content {
       display: flex;
@@ -262,5 +270,10 @@ body {
     }
     .brand-paragraph{
       font-size: 1.2em;
-      line-height: 1.5; 
+      line-height: 1.5;
+      margin-left: 1em;
+    }
+    #aboutus-paragraph{
+      margin-left: 3em;
+      margin-top: 2em;
     }
