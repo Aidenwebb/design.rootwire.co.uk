@@ -116,7 +116,7 @@ body {
     flex: 1;
     display: flex;
     background-color: rgb(255, 255, 255);
-    border: 2px solid black;
+    border: none;
     border-radius: 5px;
     position: relative;
     padding-bottom: 100px; 
@@ -136,13 +136,14 @@ body {
       width: 90%;
     }
   }
+  .cont1 {
+    border: 2px solid black;
+  }
   .cont2 {
     background-color: #6BC2B3;
-    border: none;
   }
   .cont3 {
     background-color: #896C89;
-    border: none;
   }
   .content {
     padding-left: 1em;
@@ -216,14 +217,47 @@ body {
 
     /* brand/index.html */
 
-    .brand-container{
+    .brand-container {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      align-items: left;
     }
-    .brand-container {
+    .brand-containers {
       padding-bottom: 2em;
       margin-bottom: 1em;
-      width: 90%;
     }
+    #brand-cont2 {
+      display: flex;
+      flex: 1;
+      position: relative;
+    }
+
+    .icon {
+      width: 30px; 
+      height: auto;
+      vertical-align: middle;
+    }
+    .contact-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .contact-icons {
+      display: flex;
+      flex-direction: column;
+      margin-right: 1em;
+      gap: 3.5em; 
+    }
+    .contact-details {
+      display: flex;
+      align-items: center; /* Center the paragraph vertically */
+  }
+  #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .brand-paragraph{
+    font-size: 1.2em;
+    line-height: 1.5; 
+  }

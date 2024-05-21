@@ -27,3 +27,11 @@ flask --app webapp/app --debug run
 ```
 
 [Flask Documentation](https://flask.palletsprojects.com/en/3.0.x/quickstart/)
+
+
+# Email and phone icons credits
+
+https://www.flaticon.com/free-icons/phone-email
+
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by laterunlabs - Flaticon</a><br>
+<a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Azland Studio - Flaticon</a>
