@@ -230,7 +230,10 @@ body {
       flex: 1;
       position: relative;
     }
-
+    .colour-icon {
+      width: 7em;
+      height: 6em;
+    }
     .icon {
       width: 30px; 
       height: auto;
@@ -251,13 +254,13 @@ body {
     .contact-details {
       display: flex;
       align-items: center; /* Center the paragraph vertically */
-  }
-  #content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-  .brand-paragraph{
-    font-size: 1.2em;
-    line-height: 1.5; 
-  }
+    }
+    #content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .brand-paragraph{
+      font-size: 1.2em;
+      line-height: 1.5; 
+    }
