@@ -14,3 +14,7 @@ def get_index():
 @app.route('/brand')
 def get_brand_index():
     return render_template('brand/index.html')
+
+@app.route('/resources')
+def get_design_resources():
+    return render_template('resources/index.html')    
