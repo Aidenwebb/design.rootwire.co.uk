@@ -287,21 +287,24 @@ body {
       justify-content: space-between;
       flex-wrap: wrap;
     }
+    /* .container*/
     .resources-container {
         flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         background-color: rgb(255, 255, 255);
         border: 2px solid black;
         border-radius: 5px;
         position: relative;
-        padding-bottom: 100px; 
         min-width: 200px;
         margin: 0 10px;
         box-sizing: border-box;
         font-size: 1.2em;
+        padding-bottom: 2em;
     }
+    /* .btn1*/
     .logos-button {
       display: inline-block;
       padding: 10px 20px;
@@ -314,4 +317,17 @@ body {
       display: flex;
       justify-content: center; 
       align-items: center; 
+    }
+    .resources-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      padding-bottom: 2em;
+    }
+    .responsive-image {
+      max-width: 80%; /* Make sure the image doesn't exceed the container's width */
+      height: auto; 
+      object-fit: contain; /* Ensure the image fits within its container */
     }
