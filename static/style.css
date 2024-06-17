@@ -277,4 +277,41 @@ body {
       flex-direction: column;
     }
     
-   
+   /* resources/index.html */
+
+    .resources-container-row {
+      display: flex;
+      position: relative;
+      padding-bottom: 100px; 
+      padding-top: 50px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .resources-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid black;
+        border-radius: 5px;
+        position: relative;
+        padding-bottom: 100px; 
+        min-width: 200px;
+        margin: 0 10px;
+        box-sizing: border-box;
+        font-size: 1.2em;
+    }
+    .logos-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: #000000;
+      font-weight: bold;
+      border: 2px solid black;
+      border-radius: 5px;
+      text-decoration: underline;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+    }
